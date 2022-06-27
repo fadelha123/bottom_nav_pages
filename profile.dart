@@ -29,7 +29,8 @@ class _ProfileState extends State<Profile> {
           controller: _addrController =
               TextEditingController(text: data['addr']),
         ),
-        ElevatedButton(onPressed: () => updateData(), child: Text("Update")),
+        ElevatedButton(
+            onPressed: () => updateData(), child: Text("Perbarui Data")),
       ],
     );
   }
@@ -41,7 +42,7 @@ class _ProfileState extends State<Profile> {
       "name": _nameController!.text,
       "phone": _phoneController!.text,
       "addr": _addrController!.text,
-    }).then((value) => print("Updated Successfully"));
+    }).then((value) => print("Data Selesai Diperbarui"));
   }
 
   @override

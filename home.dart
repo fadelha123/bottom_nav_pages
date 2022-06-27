@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(0)),
                       borderSide: BorderSide(color: Colors.grey)),
-                  hintText: "Search products here",
+                  hintText: "Temukan Buku yang Berkualitas disini",
                   hintStyle: TextStyle(fontSize: 15.sp),
                 ),
                 onTap: () => Navigator.push(context,
